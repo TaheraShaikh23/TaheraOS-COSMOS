@@ -1,0 +1,84 @@
+A.	Installing Bochs 2.7[1]
+
+Bochs can be downloaded from our web site at bochs.sourceforge.net. select a version, note that a recent release or a development version because a release version is recommended since it has been tested the most. The development versions  also sometimes called SVN snapshots may have some fresher bug fixes and new elements, but have not been tested as much as the releases.
+Bochs can also be compiled from source code or install a binary. Binary packages will be faster to install, and most include a small demonstration of a guest operating system called DLX Linux to get you started. 
+
+B.	Install Innosetup [2]
+ 
+
+Inno Setup is a free installer for Windows programs by Jordan Russell and Martijn Laan. First introduced in 1997, Inno Setup today rivals and even surpasses many commercial installers in feature set and stability.
+OS requirements change: Windows 2000, XP, and Server 2003 are no longer supported. Windows Vista is the minimum supported operating system.
+
+
+C.	Install Vmware 
+
+
+VMware offers cloud computing infrastructure and platform virtualization software and services. VMware is a publicly-traded company that supports virtualization software. The significance of virtualization is generating a virtual version of a device for example an operating system. 
+
+VMware’s have the following main categories.
+•	Desktop virtualization software
+•	Server virtualization software
+•	Cloud management software
+
+Here, we are focused on the desktop virtualization.
+1)	Steps to Install VMware
+Step 1. To download and install the VMware product visit the official website of VMware.
+https://www.vmware.com/in.html
+To install VMware Player on a Windows host:
+1.	Log in to the Windows host.
+2.	Open the folder where the VMware Player installer was downloaded. The default location is the Downloads folder for the user account on the Windows host.
+3.	Right-click the installer and click Run as Administrator.
+4.	Follow the on-screen instructions to finish the installation.
+5.	Restart the host machine.
+
+
+D.	Install Visual Studio [3]
+Step 1 - Make sure your computer is ready for Visual Studio
+Before you begin installing Visual Studio:
+
+1.	Diagnose the system for the lastest requirements. The Visual Studio 2022 might not work properly if these requirements are not met. So, therefore apply the latest Windows updates.
+2.	Restart the computer after applying the updates.
+3.	Cleanup your disk by removing unneeded files and applications from your system drive.
+
+Step 2 - Download Visual Studio
+
+Step 3 - Install the Visual Studio Installer
+From your Downloads folder, double-click the bootstrapper that matches or is similar to one of the following files:
+
+•	vs_community.exe for Visual Studio Community
+•	vs_professional.exe for Visual Studio Professional
+•	vs_enterprise.exe for Visual Studio Enterprise
+
+Acknowledge the Microsoft License Terms and the Microsoft Privacy Statement. Choose Continue.
+
+ 
+Figure 14: Screenshot showing the Microsoft License Terms and Privacy Statement.
+
+Step 4 - Choose workloads
+After the installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you want. Here's how.
+
+1.	Select the workload you want in the Visual Studio Installer.
+
+Review the workload summaries and add the Visual Studio 2022 Workloads .NET Core Tools & .NET Core cross-platform development. If not done properly the cosmos project will not be able to build properly. This step is important. The status screens show the progress of your Visual Studio installation.
+
+Step 5 - Select the installation location 
+
+Step 6 - Start developing
+After your Visual Studio installation is done, select the Launch button to begin developing with Visual Studio.
+
+E.	Install COSMOS[4]
+1)	Prerequisites
+•	Visual Studio 2022 
+•	Visual Studio 2022 Workload: .NET Core Tools - .NET Core cross-platform development
+•	.NET Framework 4.8 Developer Pack  
+•	VMware Player OR Workstation VMware Player is free, so that is recommended instead 
+There is choice between the User Kit and the Dev Kit. It is suggested that new users start with the User Kit but only move later to the Dev Kit if you need the latest features and want to contribute back to the main project. It is due to the fact that Dev Kit have latest feature but might contain some bugs. 
+
+The User Kit is a stable version of Cosmos including a premade installer. 
+
+2)	User Kit
+1.	Download the latest release of Cosmos (download the exe file)
+2.	Wait for the download to complete then run the installer. Allow it to run as admin. Make sure VS2022 is NOT running when you do this.
+3.	Click "Next" then "Install"
+4.	Wait for the install to progress. 
+5.	Cosmos will be installed. 
